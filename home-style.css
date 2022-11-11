@@ -87,6 +87,12 @@ a:hover {
     /* width: 100%; */
 }
 
+.imagem1, .imagem2{
+    width: 40%;
+    border: 7px solid rgb(122, 36, 36);
+    box-sizing: border-box;
+}
+
 .textCenter{
     text-align: center;
 }
