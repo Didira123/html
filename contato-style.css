@@ -7,7 +7,6 @@
     /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 90px 0;
 }
 
 .divLogo{
@@ -51,59 +50,69 @@
     margin: 5px 0;
 }
 
+a {
+    
+    text-decoration: none; 
+}
+a:hover {
+    background-color: aliceblue;
+    transition: 0.2s;
+}
+
+
 .login {
     width: 200px;
     align-self: center;
     background-color: blanchedalmond;
 }
 
-.titulosH2{
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0 0 60px 0;
+.entreEmContato{
+    background-image: linear-gradient( rgb(9, 55, 116), rgb(136, 56, 56));
 }
 
-.produtos{
+.titulosH2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(155, 74, 209);
+    font-style: italic;
+    text-decoration: overline underline;
+    padding: 90px 0 60px 0;
+}
+
+.localizacao{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.localizacaoTitulo{
+    text-decoration: none;
+    color: rgb(62, 131, 134);
+}
+
+.localizacaoDescricao{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.localizacaoEwhatsApp{
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
     justify-content: space-around;
+    /* justify-content: space-around; */
     margin: 0 100px;
+    padding-bottom: 320px;
 }
 
-.produto{
-    width: 270px;
-    border: 8px solid #000;
-    background-color: coral;
-    margin-top: 10px;
-}
-
-.nomeProduto{
-    font-size: 13px;
-    text-align: center;
-    font-weight: bold;
-    margin: 20px 0;
-}
-
-.imagemProduto{
-    width: 254px;
-    height: 200px;
-    border: 8px solid rgb(12, 124, 253);
-    /* border-left: 8px dotted rgb(12, 124, 253);
-    border-right: 8px dotted rgb(12, 124, 253); */
-}
-
-.precoProduto{
-    font-size: 13px;
-    text-align: center;
-    font-weight: bold;
-    margin: 20px 0;
+.contatoZap{
+    align-self: center;
 }
 
 .textCenter{
     text-align: center;
 }
-
-
 
 .inlineBlock{
     display: inline-block

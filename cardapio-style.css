@@ -1,0 +1,127 @@
+.fontFamilyGeral{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divLogo{
+    padding-top:8px;
+    background-color: aquamarine;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    border: 5px solid #000;
+    border-radius: 68px;
+    margin: 30px;
+}
+
+.containerLinks{
+    display:flex;
+    height: 200px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.espacamentoP{
+    margin: 0 10px !important;
+}
+.grow1{
+    flex-grow: 1;
+}
+
+.paddingTopBot{
+    padding: 10px 0;
+}
+
+.botaoLegal{
+    background-color: #e6e4ec;
+    border: 2px solid rgb(168, 166, 166);
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+a {
+    
+    text-decoration: none; 
+}
+a:hover {
+    background-color: aliceblue;
+    transition: 0.2s;
+}
+
+
+.login {
+    width: 200px;
+    align-self: center;
+    background-color: blanchedalmond;
+}
+
+.cardapio{
+    background-image: linear-gradient( rgb(9, 55, 116), rgb(136, 56, 56));
+}
+
+.titulosH2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(155, 74, 209);
+    font-style: italic;
+    text-decoration: overline underline;
+    padding: 90px 0 60px 0;
+}
+
+.produtos{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+    margin: 0 100px;
+}
+
+.produto{
+    width: 18%;
+    box-sizing: border-box;
+    border: 6px solid #000;
+    background-color: rgb(209, 61, 34);
+    margin: 1%;
+}
+
+.nomeProduto{
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.imagemProduto{
+    width: 100%;
+    height: 190px;
+    border: 8px solid rgb(12, 124, 253);
+    box-sizing: border-box;
+    /* border-left: 8px dotted rgb(12, 124, 253);
+    border-right: 8px dotted rgb(12, 124, 253); */
+}
+
+.precoProduto{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    margin: 13px 0;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.inlineBlock{
+    display: inline-block
+}

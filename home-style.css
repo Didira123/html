@@ -1,0 +1,96 @@
+.fontFamilyGeral{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-container{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divLogo{
+    padding-top:8px;
+    background-color: aquamarine;
+}
+
+.logo{
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    border: 5px solid #000;
+    border-radius: 68px;
+    margin: 30px;
+}
+
+.containerLinks{
+    display:flex;
+    height: 200px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.espacamentoP{
+    margin: 0 10px !important;
+}
+.grow1{
+    flex-grow: 1;
+}
+
+.paddingTopBot{
+    padding: 10px 0;
+}
+
+.botaoLegal{
+    background-color: #e6e4ec;
+    border: 2px solid rgb(168, 166, 166);
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+a {
+    
+    text-decoration: none; 
+}
+a:hover {
+    background-color: aliceblue;
+    transition: 0.2s;
+}
+
+.login {
+    width: 200px;
+    align-self: center;
+    background-color: blanchedalmond;
+}
+
+.introducao{
+    background-image: linear-gradient( rgb(9, 55, 116) 75%,  rgb(136, 56, 56));
+}
+
+.titulosH2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(155, 74, 209);
+    font-style: italic;
+    text-decoration: overline underline;
+    padding: 79px 0 60px 0;
+}
+
+.imagensRestaurante{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 70px 0;
+    /* width: 100%; */
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.inlineBlock{
+    display: inline-block
+}
