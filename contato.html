@@ -24,13 +24,38 @@
         </header>
         <div class="entreEmContato">
             <h2 class="textCenter titulosH2">Entre em Contato conosco!</h2>
-            <div class="localizacaoEwhatsApp">
+            <div class="localizacaoEcontato">
                 <div class="localizacao">
-                    <h3 class="localizacaoTitulo textCenter titulosH2">Lozalização</h3>
-                    <p class="localizacaoDescricao">R. Santa Terezinha, 250 - Nossa Sra. do Carmo</p>
-                    <p class="localizacaoDescricao">Contagem - MG, 32015-600</p>
+                    <h3 class="TitulosDeContato textCenter titulosH2">Lozalização</h3>
+                    <iframe class="mapaLocalizacao" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.0898499986115!2d-44.08938320000001!3d-19.920618200000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69549d0db929f%3A0x1bff7c67b6401897!2sR.%20Santa%20Terezinha%2C%20250%20-%20Nossa%20Sra.%20do%20Carmo%2C%20Contagem%20-%20MG%2C%2032015-600!5e0!3m2!1spt-BR!2sbr!4v1668206018601!5m2!1spt-BR!2sbr" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <!-- <p class="localizacaoDescricao">R. Santa Terezinha, 250 - Nossa Sra. do Carmo</p>
+                    <p class="localizacaoDescricao">Contagem - MG, 32015-600</p> -->
                 </div>
-                <a class="contatoZap" href="https://contate.me/restaurante4123"><img src="Fotos/WhatsAppImage.png" alt="Imagem clicável - Icone WhatsApp"></a>
+                <!-- <a class="contatoZap" href="https://contate.me/restaurante4123"><img src="Fotos/WhatsAppImage.png" alt="Imagem clicável - Icone WhatsApp"></a> -->
+                <div class="formulario">
+                    <h3 class="TitulosDeContato formTitulo textCenter titulosH2">Formulário de Comunicação</h3>
+                    <form class="corpoFormulario">
+                        <label class="block campoFormularioContato">Nome:<br><input type="text" required placeholder="Digite seu nome"></label>
+                        <label class="block campoFormularioContato">Email:<br><input type="email" required placeholder="example@email.com"></label>
+                        <fieldset class="formCidade campoFormularioContato">
+                            <legend>Para informarmos a localização mais próxima da sua região, escolha o nome da sua cidade:</legend>   
+                            <select required>
+                                <option value="">Selecione...</option>
+                                <option value="BeHo">Belo Horizonte</option>
+                                <option value="Co">Contagem</option>
+                                <option value="Be">Betim</option>
+                                <option value="Br">Brumadinho</option>
+                                <option value="LaSa">Lagoa Santa</option>
+                                <option value="Co">Confins</option>
+                                <option value="Es">Esmeraldas</option>
+                            </select>
+                        </fieldset>
+                        <label class="block campoFormularioContato">Estado:<br><input type="text" required></label>
+                        <label class="block campoFormularioContato">Assunto:<br><textarea maxlength="100px" type="text" placeholder="Faça um comentário para nós..." rows="4" cols="60"></textarea></label>
+                        <input type="submit" name="Enviar Formulario" value="Enviar Formulário" id="" class="botaoLegal paraBotaoEnviar">
+                    </form>
+                </div>
             </div>
         </div>
     </body>

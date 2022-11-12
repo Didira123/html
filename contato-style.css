@@ -43,6 +43,10 @@
     padding: 10px 0;
 }
 
+a {
+    text-decoration: none; 
+}
+
 .botaoLegal{
     background-color: #e6e4ec;
     border: 2px solid rgb(168, 166, 166);
@@ -50,9 +54,6 @@
     margin: 5px 0;
 }
 
-a {
-    text-decoration: none; 
-}
 .botaoLegal:hover {
     background-color: aliceblue;
     transition: 0.2s;
@@ -76,37 +77,65 @@ a {
     color: rgb(155, 74, 209);
     font-style: italic;
     text-decoration: overline underline;
-    padding: 90px 0 60px 0;
+    padding: 50px 0 60px 0;
+}
+
+.localizacaoEcontato{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* justify-content: space-around; */
+    margin: 0 100px;
 }
 
 .localizacao{
+    width: 800px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
 }
 
-.localizacaoTitulo{
+.formulario{
+    
+}
+
+.TitulosDeContato{
     text-decoration: none;
     color: rgb(62, 131, 134);
 }
 
-.localizacaoDescricao{
-    font-size: 18px;
+.corpoFormulario{
+    background-color: rgb(198, 214, 214);
+    padding: 20px;
+}
+
+.campoFormularioContato{
+    margin: 10px 0 10px 0;
+}
+
+.formTitulo{
     font-weight: bold;
+    /* text-transform: uppercase; */
+    margin: 0 0 16px 0;
 }
 
-.localizacaoEwhatsApp{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
-    /* justify-content: space-around; */
-    margin: 0 100px;
-    padding-bottom: 320px;
+.formCidade{
+
 }
 
-.contatoZap{
-    align-self: center;
+.paraBotaoEnviar{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(243, 130, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6px;
+}
+
+.paraBotaoEnviar:hover{
+    transition: 1s all;
+    background-color: rgb(243, 73, 11);
+    transform: scale(1.2)
 }
 
 .textCenter{
@@ -114,5 +143,9 @@ a {
 }
 
 .inlineBlock{
-    display: inline-block
+    display: inline-block;
+}
+
+.block{
+    display: block;
 }
