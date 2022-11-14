@@ -43,6 +43,10 @@
     padding: 10px 0;
 }
 
+a {
+    text-decoration: none; 
+}
+
 .botaoLegal{
     background-color: #e6e4ec;
     border: 2px solid rgb(168, 166, 166);
@@ -50,15 +54,10 @@
     margin: 5px 0;
 }
 
-a {
-    
-    text-decoration: none; 
-}
-a:hover {
+.botaoLegal:hover {
     background-color: aliceblue;
     transition: 0.2s;
 }
-
 
 .login {
     width: 200px;
