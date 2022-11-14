@@ -124,6 +124,10 @@ a {
 
 }
 
+.legendCidade{
+    padding-bottom: 10px;
+}
+
 .paraBotaoEnviar{
     color: rgb(255, 255, 255);
     font-weight: bold;
