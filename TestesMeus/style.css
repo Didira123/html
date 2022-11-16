@@ -1,0 +1,37 @@
+.container1{
+    width: 900px;
+    height: 450px;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.container2{
+    width: 25%;
+    height: 25%;
+    border: 5px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.container3{
+    width: 25%;
+    height: 25%;
+    border: 5px solid lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.vermelho{
+    width: 25%;
+    height: 25%;
+    background-color: red;
+}
+.azul{
+    width: 25%;
+    height: 25%;
+    background: darkcyan;
+}
