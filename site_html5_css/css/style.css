@@ -1,0 +1,150 @@
+body{
+    background: url("../img/background.jpg");
+    color: #868686;
+    font-family: "Open Sans", Helvetica, sans-serif, Arial;
+    font-size: 1.125em; /*de 16px a 18px*/
+    font-weight: 300;
+    line-height:  1.2222222222em; /*22px a 18px 10 n 2*/
+    text-align: left;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.centro{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+} 
+
+/*adicionar um espaço vazio antes e depois dos elementos evitando que os floats aglomerem*/
+.clearfixbody::before, .clearfixbody::after{
+    content: " ";
+    display: table;
+}
+
+.clearfixbody::after{
+    clear: both;
+}
+
+.clearfixbody{
+    *zoom: 1;
+}
+
+img, picture, video, embed{
+    max-width: 100%;
+}
+
+h1, h2 {
+    color: #0ac3fe;
+    font-size: 3.3333333333em; /*60px a 18px*/
+    font-weight: 800;
+    letter-spacing: -0.05em; /*-3px a px*/
+    line-height: 1em;
+}
+
+h3{
+    font-size: 1.7777777778em;
+    font-weight: 300;
+    letter-spacing: -0.0625em;
+    line-height: 1.1875em;
+}
+
+p {
+    font-weight: 300;
+    letter-spacing: -0.05555555556em;
+}
+
+a, a:link, a:visited{
+    color: #1399da;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#fe5e41;
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+header h1 a{
+    background: url(../img/logo-criar-site-responsivo.png) no-repeat;
+    display: block;
+    height: 139px;
+    float: left;
+    width: 38.3333333333%;
+    text-indent: -9999;
+}
+
+nav {
+    float: right;
+    margin-top: 78px;
+    text-align: right;
+    width: 61.66666666666667%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav ul li a{
+    margin-right: 2.5%;
+}
+
+nav a:link, nav a:visited {
+    color: #999;
+    font-size: 1.2222222222em;
+    font-weight: 300;
+    letter-spacing: -0.0909090909;
+    line-height: 1.18181818182em;
+    display: inline-block;
+}
+
+nav a.ativo, nav a:hover{
+    color: #0ac3fe;
+
+}
+
+.chamada{
+    height: 290px;
+    text-align: center;
+    width: 100%;
+}
+
+h2 span{
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: -0.03333333333em;
+    line-height: 1em;
+}
+
+.chamada h3 {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.desktop{
+    
+}
+
+.botao{
+    
+}
+
+.tablet{
+    
+}
+
+.mobile{
+    
+}
+
+.copyleft{
+    
+}
+
+.desenvolvedor{
+
+}

@@ -8,15 +8,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>Site Html 5 e Css responsivo</title>
-    <link rel="stylesheet" type="text/html" href="">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800">
 </head>
-<body>
+<body class="centro clearfixbody">
     <header>
         <h1><a href="index.html" title="Como criar um site responsivo html5 e css"><span></span></a></h1>
         <!-- Menu de navegação -->
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a class="ativo" href="#">Home</a></li>
                 <li><a href="#">Produtos</a></li>
                 <li><a href="#">Localização</a></li>
                 <li><a href="#">Contato</a></li>
@@ -24,40 +25,40 @@
         </nav>
     </header>
     <!-- seção de chamada do site -->
-    <section>
-            <h2><span>Como criar um</span> SITE RESPONSIVO <span>com</span> HTML5 <span>e</span>CSS</h2>
+    <section class="chamada">
+            <h2><span>Como criar um</span> SITE RESPONSIVO <span>com</span> HTML5 <span>e</span> CSS</h2>
             <h3>Com essa aula você irá criar um site responsivo para ser visualizado em desktops, tablets e smartphones.</h3>
     </section>
     <!-- seção de imagens do site -->
-    <section>
-        <div>
+    <section class="meio">
+        <div class="desktop">
             <figure>
-                <img src="Fotos\desktop-responsivo-design.png" alt="">
+                <img src="img/desktop-responsivo-design.png" alt="">
             </figure>
             <h3>Desktop Responsivo</h3>
             <p>Nesta aula você aprenderá, de maneira simples como criar um site responsivo, que será bem visualizado em 
-                desktops, tablets e smartphones, em desenvolvimento web é uma tendência e exigencia nos motores de busca. <span><a href="#">Leia mais</a></span></p>
+                desktops, tablets e smartphones, em desenvolvimento web é uma tendência e exigencia nos motores de busca. <span class="botao"><a href="#">Leia mais</a></span></p>
         </div>
-        <div>
+        <div class="tablet">
             <figure>
-                <img src="Fotos\tablets-responsivo-design.png" alt="">
+                <img src="img/tablets-responsivo-design.png" alt="">
             </figure>
             <h3>Tablet Responsivo</h3>
             <p>Nesta aula você aprenderá, de maneira simples como criar um site responsivo, que será bem visualizado em 
-                desktops, tablets e smartphones, em desenvolvimento web é uma tendência e exigencia nos motores de busca. <span><a href="#">Leia mais</a></span></p>
+                desktops, tablets e smartphones, em desenvolvimento web é uma tendência e exigencia nos motores de busca. <span class="botao"><a href="#">Leia mais</a></span></p>
         </div>
-        <div>
+        <div class="mobile">
             <figure>
-                <img src="Fotos\mobile-responsivo-design.png" alt="">
+                <img src="img/mobile-responsivo-design.png" alt="">
             </figure>
             <h3>Mobile Responsivo</h3>
             <p>Nesta aula você aprenderá, de maneira simples como criar um site responsivo, que será bem visualizado em 
-                desktops, tablets e smartphones, em desenvolvimento web é uma tendência e exigencia nos motores de busca. <span><a href="#">Leia mais</a></span></p>
+                desktops, tablets e smartphones, em desenvolvimento web é uma tendência e exigencia nos motores de busca. <span class="botao"><a href="#">Leia mais</a></span></p>
         </div>
     </section>
     <footer>
-        <small><p>CopyLeft 2022 - Open Source Cientista <a href="#">Diego Rafael</a></p></small>
-        <small><img src="Fotos\logo_desenvolvedor.png" alt=""></small>
+        <small class="copyleft"><p>CopyLeft 2022 - Open Source Cientista <a href="#">Cleber Leão</a></p></small>
+        <small class="desenvolvedor"><img src="img/logo_desenvolvedor.png" alt=""></small>
     </footer>
 </body>
 </html>
