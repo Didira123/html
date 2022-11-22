@@ -93,6 +93,27 @@ a {
     box-sizing: border-box;
 }
 
+footer{
+    background-color: #000000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border: 5px solid rgb(192, 170, 170);
+}
+
+.desenvolvedor{
+    width: 150px;
+}
+
+.desenvolvedor a, .desenvolvedor a img{
+    display: inline-block;
+    width: 100%;
+}
+
 .textCenter{
     text-align: center;
 }

@@ -7,6 +7,7 @@
     /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
+    height: 200px;
 }
 
 .divLogo{
@@ -82,16 +83,14 @@ a {
 .produtos{
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-around; */
-    margin: 0 100px;
 }
 
 .produto{
-    width: 18%;
+    width: 402px;
     box-sizing: border-box;
     border: 6px solid #000;
     background-color: rgb(209, 61, 34);
-    margin: 1%;
+    margin: 17px;
 }
 
 .nomeProduto{
@@ -115,6 +114,27 @@ a {
     text-align: center;
     font-weight: bold;
     margin: 13px 0;
+}
+
+footer{
+    background-color: #000000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border: 5px solid rgb(192, 170, 170);
+}
+
+.desenvolvedor{
+    width: 150px;
+}
+
+.desenvolvedor a, .desenvolvedor a img{
+    display: inline-block;
+    width: 100%;
 }
 
 .textCenter{

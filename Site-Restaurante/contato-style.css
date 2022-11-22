@@ -85,7 +85,7 @@ a {
     align-items: flex-start;
     justify-content: space-around;
     /* justify-content: space-around; */
-    margin: 0 100px;
+    padding: 0 100px 40px 100px;
 }
 
 .localizacao{
@@ -139,6 +139,27 @@ a {
     transition: 1s all;
     background-color: rgb(243, 73, 11);
     transform: scale(1.2)
+}
+
+footer{
+    background-color: #000000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border: 5px solid rgb(192, 170, 170);
+}
+
+.desenvolvedor{
+    width: 150px;
+}
+
+.desenvolvedor a, .desenvolvedor a img{
+    display: inline-block;
+    width: 100%;
 }
 
 .textCenter{
