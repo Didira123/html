@@ -49,6 +49,11 @@ h1, h2{
 	letter-spacing: -0.05em; /* -3px a· 60px = -0.05em */
 	line-height: 1em; /* 60px a 60px = 1em */
 }
+
+h2{
+	padding-top: 50px;
+}
+
 h3{
 	font-size: 1.78em; /* 32px a 18px = 1.7777777778em */
 	font-weight: 300;
@@ -122,6 +127,12 @@ nav{
 				color:#0ac3fe; 
 			}
 /*----------------------------------------------------------
+ main ====================================
+----------------------------------------------------------*/
+main{
+	background-image: linear-gradient(rgb(9, 55, 116) 75%,  rgb(136, 56, 56));
+}
+/*----------------------------------------------------------
  .CHAMADA ====================================
 ----------------------------------------------------------*/
 .chamada{
@@ -141,7 +152,7 @@ nav{
 	}
 
 .meio{
-	background-color:#0ac3fe;
+	background-color: transparent;
 	height: 437px;
 	padding: 2.5%;
 	width: 95%;
@@ -172,6 +183,18 @@ nav{
 	margin: 15px auto 0px auto;
 	width: 69.444%;
 }
+
+.meio .desktop figure img, .meio .tablet figure img, .meio .mobile figure img{
+	width: 100%;
+}
+
+.meio .desktop figure img, .meio .tablet figure img, .meio .mobile figure img{
+	max-width: 200px;
+	max-height: 110px;
+	border: 3px solid #0177ff;
+	margin: 0 auto;
+}
+
 .meio h3{
 	color: #ffffff;
 	font-size: 1.778em;
@@ -216,20 +239,153 @@ span.botao{
 	text-shadow: none;
 }
 footer{
-	clear: both;
-	height: 50px;
-	padding: 10px 0;
-	width: 100%;
+	background-color: #000000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border: 5px solid rgb(192, 170, 170);
+	text-shadow: none;
 }
 .copyleft{
-	float: left;
 	margin-left: 2.5%;
 }
-.desenvolvedor{
-	float:right
-}
+/* .desenvolvedor{
+
+} */
 .desenvolvedor figure{
-	width:100%;
+	width:100px;
+}
+
+.desenvolvedor a, .desenvolvedor a img{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.entreEmContato{
+    background-image: linear-gradient( rgb(9, 55, 116), rgb(136, 56, 56));
+	text-align: center;
+}
+
+.titulosH2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(155, 74, 209);
+    font-style: italic;
+    text-decoration: overline underline;
+    padding: 50px 0 60px 0;
+}
+
+.localizacaoEcontato{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-around; */
+    padding: 0 100px 40px 100px;
+}
+
+.localizacao{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+	width: 100%;
+}
+
+.mapaLocalizacao{
+	width: 80%;
+}
+
+.formulario{
+	position: relative;
+}
+
+.TitulosDeContato{
+    text-decoration: none;
+    color: rgb(62, 131, 134);
+}
+
+.corpoFormulario{
+    background-color: rgb(198, 214, 214);
+    padding: 20px;
+}
+
+.campoFormularioContato{
+    margin: 10px 0 10px 0;
+	border: none;
+	color: black;
+	font-weight: 500;
+}
+
+.formTitulo{
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    margin: 0 0 16px 0;
+}
+
+.formCidade select{
+	position: absolute;
+	left: 0 !important;
+	margin-left: 40px;
+	display: flex;
+}
+
+.legendCidade{
+    padding-bottom: 10px;
+}
+
+.assunto{
+	width: 80%;
+}
+
+.paraBotaoEnviar{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(243, 130, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6px;
+}
+
+.paraBotaoEnviar:hover{
+    transition: 1s all;
+    background-color: rgb(243, 73, 11);
+    transform: scale(1.2)
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+.block{
+    display: block;
+}
+
+.whatsapp{
+	right: 10px;
+	width: 70px;
+}
+
+.setaHome{
+	left: 10px;
+	width: 70px;
+}
+
+.fixed{
+	bottom: 10px;
+	position: fixed;
+}
+
+.whatsapp img, .setaHome img{
+	width: 100%;
 }
 
 @media screen and (max-width: 999px){
@@ -267,7 +423,7 @@ footer{
 		font-size: 1.111em;
 	}
 	.meio{
-		background-color:#228b22;
+		background-color: transparent;
 		height:400px;
 		padding: 3.90%;
 		width: 92.18%;
@@ -370,7 +526,7 @@ footer{
 		font-size: 0.778em;
 	}
 	.meio{
-		background-color: #8a2be2;
+		background-color: transparent;
 		margin:0;
 		padding:0;
 		width: 100%;
@@ -400,17 +556,27 @@ footer{
 	.meio p{
 		display: none;
 	}
+
+	.entreEmContato .titulosH2{
+		font-size: 30px;
+		margin-top: 80px !important;
+	}
+
 	.copyleft, .desenvolvedor{
 		float: none;
 		margin: 0;
 		padding: 0;
 		text-align: center;
 	}
-	.desenvolvedor figure{
-		width: inherit;
+
+	.whatsapp, .setaHome{
+		width: 50px;
 	}
+	/* .desenvolvedor figure{
+		width: inherit;
+	} */
 }
-@media screen and (max-width:319px){
+@media screen and (max-width: 319px){
 	/* cores baixa resolução*/ 
 	h2, a, a:link, a:visited{
 		color:#79e1d5;
@@ -453,6 +619,9 @@ footer{
 	.chamada h3{
 		font-size:0.777777778em;
 	}
+	/* .meio{
+		height: 100px !important; NAO FUNCIONA
+	} */
 	/* meio retirar texto e aumentar a foto */
 	.meio .desktop, .meio .tablet, .meio .mobile{
 		float:none;
@@ -469,7 +638,36 @@ footer{
 	.meio p{
 		display: none;
 	}
+
+	.localizacaoEcontato{
+		padding: 0 0 40px 0;
+	}
+
+	.mapaLocalizacao{
+		width: 100%;
+	}
+
+	.formulario{
+		width:100%;
+	}
+
+	.corpoFormulario{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.estadoInput{
+		margin-top: 15px;
+	}
+	
+	.formulario .assunto {
+		width: 19em;
+		height: 8em;
+	}
+
 	.copyleft{
 		font-size: 0.91em;
 	}
+	
 }
