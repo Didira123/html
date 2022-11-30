@@ -87,13 +87,20 @@ header{
 logotipo
 =========================
 */
-	header h1 a{
-		background:url(../img/logo-criar-site-responsivo.png) no-repeat ; 
+	/* header h1 a{
+		background:url(../img/logo.png) no-repeat ; 
 		display:block;
 		float:left; 
 		height:139px;
 		text-indent:-9999; 
-		width:38.333%; /* 700px a 1200px = 0.58333333333333 x 100 = 58.333333333333%*/
+		width:38.333%; 
+	} */
+	header h1 {
+		display: inline-block;
+	}
+	header h1 a img{
+		width: 200px;
+		height:143px;
 	}
 /*
 =========================
@@ -395,7 +402,7 @@ footer{
 	a:hover{
 		color:f9ad0f;
 	}
-	header{
+	/* header{
 		height: 195px;
 		text-align: center;
 	}
@@ -404,12 +411,16 @@ footer{
 		height: 126px;
 		margin-bottom: 15px;
 		width: 100%;
+	} */
+	header h1 a img{
+		width: 180px;
+		height: 133px;
 	}
-	nav{
+	/* nav{
 		float: none;
 		text-align: center;
 		width: 100%;
-	}
+	} */
 	nav a.ativo:link, nav a:hover{
 		color: #228b22;
 	}
@@ -480,14 +491,23 @@ footer{
 		height: auto;
 		text-align: center;
 	}
-	header h1 a {
+	/* header h1 a {
 		background-position: 50%;
 		display: inherit;
 		height: 126px;
 		width: 100%;
+	} */
+	header h1 a {
+		display: block;
 	}
+	nav {
+		float: none;
+		margin-top: 0;
+		text-align: right;
+	  }
 	nav{
 		clear: both;
+		width: 100%;
 	}
 	nav li{
 		background-color:#9c8cb9;
@@ -515,7 +535,7 @@ footer{
 	}
 	.chamada{
 		height: 145px;
-		margin-top: 10px;
+		margin: 0;
 	}
 	h2{
 		font-size: 1.444em;
@@ -557,6 +577,29 @@ footer{
 		display: none;
 	}
 
+	.localizacaoEcontato{
+		padding: 0 0 40px 0;
+	}
+
+	.mapaLocalizacao{
+		width: 100%;
+	}
+
+	.formulario{
+		width:100%;
+	}
+
+	.estadoInput{
+		margin: 15px 0 0 0;
+		position: relative;
+		right: 0;
+	}
+	
+	.formulario .assunto {
+		width: 19em;
+		height: 8em;
+	}
+
 	.entreEmContato .titulosH2{
 		font-size: 30px;
 		margin-top: 80px !important;
@@ -588,13 +631,6 @@ footer{
 		border-bottom:none;
 		height:auto;
 		text-align:center;
-	}
-	header h1 a{
-		background:url(../img/logo-criar-site-responsivo-menor.png) no-repeat;
-		background-position: 50%;
-		display:inherit;
-		height:90px;
-		width:100%
 	}
 	nav li{
 		background-color:#79e1d5;
@@ -639,31 +675,10 @@ footer{
 		display: none;
 	}
 
-	.localizacaoEcontato{
-		padding: 0 0 40px 0;
-	}
-
-	.mapaLocalizacao{
-		width: 100%;
-	}
-
-	.formulario{
-		width:100%;
-	}
-
 	.corpoFormulario{
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.estadoInput{
-		margin-top: 15px;
-	}
-	
-	.formulario .assunto {
-		width: 19em;
-		height: 8em;
+		align-items: center;
 	}
 
 	.copyleft{

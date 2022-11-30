@@ -1,0 +1,188 @@
+body{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.imagensCarrossel{
+    width: 100%;
+    height: 512px;
+}
+/* main{
+	background-image: linear-gradient(rgb(9, 55, 116) 75%,  rgb(136, 56, 56));
+} */
+div.col-lg-4{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+footer{
+	background-color: #000000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border: 5px solid rgb(192, 170, 170);
+	text-shadow: none;
+}
+.copyleft{
+	margin-left: 2.5%;
+}
+.desenvolvedor figure{
+	width:100px;
+}
+.desenvolvedor a, .desenvolvedor a img{
+    display: inline-block;
+    width: 100%;
+}
+.entreEmContato{
+    background-image: linear-gradient( rgb(9, 55, 116), rgb(136, 56, 56));
+	text-align: center;
+}
+.localizacaoEcontato{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-around; */
+    padding: 0 100px 40px 100px;
+}
+.localizacao{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+	width: 100%;
+}
+.mapaLocalizacao{
+	width: 80%;
+}
+.formulario{
+	position: relative;
+}
+.TitulosDeContato{
+    text-decoration: none;
+    color: rgb(62, 131, 134);
+}
+.corpoFormulario{
+    background-color: rgb(198, 214, 214);
+    padding: 20px;
+}
+.campoFormularioContato{
+    margin: 10px 0 10px 0;
+	border: none;
+	color: black;
+	font-weight: 500;
+}
+.formTitulo{
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    margin: 0 0 16px 0;
+}
+.formCidade select{
+	left: 0 !important;
+	margin-left: 333px;
+	display: flex;
+}
+.legendCidade{
+    padding-bottom: 10px;
+}
+.assunto{
+	width: 80%;
+}
+.paraBotaoEnviar{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgb(243, 130, 0);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 6px;
+}
+.paraBotaoEnviar:hover{
+    transition: 1s all;
+    background-color: rgb(243, 73, 11);
+    transform: scale(1.2)
+}
+.textCenter{
+    text-align: center;
+}
+.inlineBlock{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.redessociais1{
+	right: 10px;
+	width: 70px;
+}
+
+.redessociais2{
+	right: 54px;
+	width: 70px;
+}
+
+.redessociais3{
+	right: 98px;
+	width: 70px;
+}
+
+.setaHome{
+	left: 10px;
+	width: 70px;
+}
+.fixed{
+	bottom: 10px;
+	position: fixed;
+}
+.redessociais1 img, .setaHome img{
+	width: 100%;
+}
+
+@media screen and (max-width: 999px){
+	
+}
+
+@media screen and (max-width: 630px){
+	.localizacaoEcontato{
+		padding: 0 0 40px 0;
+    }
+	.mapaLocalizacao{
+		width: 100%;
+	}
+	.formulario{
+		width:100%;
+	}
+	.estadoInput{
+		margin: 15px 0 0 0;
+		position: relative;
+		right: 0;
+	}
+	.formulario .assunto {
+		width: 19em;
+		height: 8em;
+    }
+	.entreEmContato .titulosH2{
+		font-size: 30px;
+		margin-top: 80px !important;
+	}
+	.copyleft, .desenvolvedor{
+		float: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	.redessociais, .setaHome{
+		width: 50px;
+	}
+}
+@media screen and (max-width: 319px){
+	.corpoFormulario{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.copyleft{
+		font-size: 0.91em;
+	}
+}
