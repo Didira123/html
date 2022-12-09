@@ -1,0 +1,112 @@
+
+.cabecalho{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* justify-content: center; */
+}
+.login{
+    width: 10.4174%;
+    /* height: 56px; */
+}
+.navegacao{
+    /* width: %; */
+    padding: 7px 0;
+    background-color: #5da46f;
+}
+.caixa-nav{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoNav{
+    background-color: rgb(78, 78, 78);
+    padding: 8px;
+    margin: 2px;
+    border: 3px solid rgb(56, 56, 56);
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subTitulo{
+    text-align: center;
+}
+
+.img_e_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(58, 242, 255);
+}
+.imagem-perfil{
+    margin: 0 auto;
+    border: 3px solid #0dec45;
+    border-radius: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #619505;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1.5px 2px black;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    /* box-shadow: 10px 5px #777777; */
+}
+.formulario label {
+    margin: 16px 0;
+}
+.nomeProfissao{
+    display: flex;
+    justify-content: space-around;
+}
+.inputs{
+    width:250px;
+}
+.enviar {
+    padding: 10px 20px;
+    background-color: #fb8406;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 0 0 0 auto;
+    color: white;
+    font-weight: bold;
+  }
+.enviar:hover {
+    transition: 0.3s all;
+    background-color: #91785f;
+    cursor: pointer;
+  }
+.tituloTextArea{
+    text-align: center;
+}
+
+.inlineblock{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.invisivel{
+    display: none;
+}

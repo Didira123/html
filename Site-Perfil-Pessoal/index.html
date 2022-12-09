@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Perfil Profissional</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img class="login inlineblock" src="img/learning.png" alt="">
+            <nav class="navegacao inlineblock">
+                <ul class="caixa-nav">
+                    <li class="botaoNav inlineblock"><a href="#">Home</a></li>
+                    <li class="botaoNav inlineblock"><a href="#">Contatos</a></li>
+                    <li class="botaoNav inlineblock"><a href="#">Cursos</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <hr>
+        <h1 class="titulo">Perfil Profissional</h1>
+        <h2 class="subTitulo">Descrição referente ao profissional de TI</h2>
+        <article class="img_e_form">
+            <figure class="imagem-perfil">
+            <img src="img/login.png" alt="imagem de perfil profissional">
+            </figure>
+            
+            <form class="formulario" action="">
+                <div class="nomeProfissao">
+                    <label for="" class="">Nome Completo: 
+                        <input class="inputs" type="text">
+                        <p class="invisivel"></p>
+                    </label>
+                    <label for="" class="">Profissão: 
+                        <input  class="inputs" type="text">
+                        <p class="invisivel"></p>
+                    </label>
+                </div>
+                
+                
+                <label class="block" for="">Competências: 
+                    <input  class="inputs" type="text">
+                    <p class="invisivel"></p>
+                </label>
+                <label class="block" for="">Objetivo: 
+                    <input  class="inputs" type="text">
+                    <p class="invisivel"></p>
+                </label>
+                <legend for="">Descrição Pessoal:</legend>
+                <textarea class="block" name="descricao" id="descricao" rows="10" cols="100"></textarea>
+                <p class="invisivel"></p>
+                
+                <label class="block" for="">Experiências: 
+                    <input class="inputs" type="text">
+                    <p class="invisivel"></p>
+                </label>
+                <label class="block" for="">Aspirações: 
+                    <input  class="inputs" type="text">
+                    <p class="invisivel"></p>
+                </label>
+                <legend class="tituloTextArea">Forma de contato:</legend>
+                <select name="contato" id="contato">
+                    <option value="">selecione...</option>
+                    <option value="linkedin">Linkedin</option>
+                    <option value="whatsapp">Whatsapp</option>
+                    <option value="email">Email</option>
+                    <option value="celular">Celular</option>
+                </select>
+                <p class="invisivel"></p>
+                <input class="block enviar" type="submit">
+            </form>
+            
+        </article>
+    </body>
+    <script src="js/script.js" type="text/javascript"></script>
+</html>

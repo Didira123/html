@@ -1,0 +1,49 @@
+
+.cabecalho{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* justify-content: center; */
+}
+.login{
+    width: 10.4174%;
+    /* height: 56px; */
+}
+.navegacao{
+    width: %;
+    padding: 7px 0;
+    background-color: #5da46f;
+}
+.caixa-nav{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.botaoNav{
+    background-color: rgb(78, 78, 78);
+    padding: 8px;
+    margin: 2px;
+    border: 3px solid rgb(56, 56, 56);
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* .login-img{
+    width: 100%;
+} */
+.cursos{
+    padding: 10px 0.5%;
+    width: 32.333%;
+    text-align: center;
+}
+/* .tituloCursos{
+    text-align: center;
+} */
+.inlineblock{
+    display: inline-block;
+}
