@@ -3,21 +3,67 @@
     padding: 0;
 }
 
+.formulario-cor{
+    background-color: #312e2e;
+    color: white;
+}
+
+.formulario-cor h2{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.formulario-cor h3{
+    font-weight: lighter;
+}
+
+.formulario div.email-input{
+    width: 80%;
+}
+.formulario div.botao{
+    width: 20%;
+}
+
+.vantagens{
+    padding: 40px 0;
+    background-color: rgb(242, 238, 238);
+}
+
+.vantagens h2{
+    font-size: 15px;
+    text-align: center;
+}
+
+.vantagens h2 span{
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(45, 232, 249);
+}
+
 .listVantagens{
-    /* display: flex;
-    flex-direction: row; */
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .listVantagens li {
     display: inline-block;
-    width: 30%;
+    width: 33.3%;
     height: 255px;
     padding: 10px 1.5%;
     border: 2px solid black;
     text-align: center;
-    
+    vertical-align: top;
+}
+
+.listVantagens li img{
+    height: 70px;
 }
 
 .listVantagens li h3{
     font-weight: bold;
+}
+.listVantagens li p{
+    font-size: 14px;
 }
