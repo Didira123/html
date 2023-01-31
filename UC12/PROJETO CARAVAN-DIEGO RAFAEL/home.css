@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
 }
+
+.listVantagens{
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.listVantagens li {
+    display: inline-block;
+    width: 30%;
+    height: 255px;
+    padding: 10px 1.5%;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+.listVantagens li h3{
+    font-weight: bold;
+}
