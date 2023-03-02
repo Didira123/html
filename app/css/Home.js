@@ -1,6 +1,8 @@
 import React from "react";
 import { StyleSheet, Dimensions } from "react-native";
 
+const width = Dimensions.get("screen").width;
+
 export default Home = StyleSheet.create({
     container: {
         flex: 1,
@@ -61,5 +63,55 @@ export default Home = StyleSheet.create({
         color:"#3A8",
         fontFamily:"MS7Bold",
     },
-
+    imagem_topo:{
+        width: "100%",
+        height:3/4*width,
+    },
+    container_titulo:{
+        position:"absolute",
+        width:165,
+        padding:2,
+        margin:180
+    },
+    titulo_imagem:{
+        color:"white",
+        fontSize:40,
+        // width:"43%",
+        backgroundColor:"#DF006F",
+        borderRadius:19,
+        padding:2,
+    },
+    container_texto_imagem:{
+        margin:5,
+        padding:10,
+        borderWidth:4,
+        borderColor: "#FBEDB9",
+        borderRadius: 30,
+        // shadowOffset:{width: 5, height:5},
+        // shadowColor:"red",
+        backgroundColor:"#EADDCA",
+    },
+    texto_imagem:{
+        fontSize:11,
+        textAlign:"justify",
+        // fontStyle:"italic",
+    },
+    destaqueDiferencial:{
+        marginTop:10, 
+        position:"absolute", 
+        left:9.2, 
+        top: 78.7, 
+        fontSize: 11.4,
+        fontWeight:"bold",
+    },
+    brown:{
+        fontStyle: "italic",
+        backgroundColor:"#B7AA87",
+    },
+    italicWhite:{
+        fontStyle:"italic",
+        color:"white",
+        fontWeight:"bold",
+        fontFamily:"MS4Regular",
+    }
 })
