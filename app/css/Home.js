@@ -113,5 +113,21 @@ export default Home = StyleSheet.create({
         color:"white",
         fontWeight:"bold",
         fontFamily:"MS4Regular",
+    },
+    imagem_container:{
+        width:296*1.08,
+        height:327*1.06,
+        padding:10,
+        backgroundColor:"brown",
+    },
+    imagem_container2:{
+        width:296*1.08,
+        height:327*1.06,
+        padding:10,
+        backgroundColor:"brown",
+    },
+    imagemTOP2:{
+        width: 300,
+        height: 300,
     }
 })

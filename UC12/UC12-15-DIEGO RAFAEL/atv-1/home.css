@@ -1,0 +1,8 @@
+.botaoMudar{
+    display: inline-block;
+    background-color: rgb(76, 191, 230);
+    color: white;
+    padding: 2px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
