@@ -1,0 +1,64 @@
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    /* display: inline-block; */
+    width: 180px;
+    flex-grow: 1;
+}
+.logo-imagem{
+    width:100%;
+}
+.barraNav{
+    flex-grow: 3.2;
+    /* display: inline-block; */
+    width: 700px;
+}
+.barraNav-imagem{
+    width: 100%;
+}
+.listMenu{
+    flex-grow: 3;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.alignMoreUp{
+    margin-bottom: 10px;
+}
+.itensListMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3.8%;
+}
+.menu{
+    flex-grow: 1;
+}
+.favoritos{
+    flex-grow: 1;
+}
+.login{
+    flex-grow: 1.2;
+}
+.textoLogin{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.carrinho{
+    flex-grow: 1.2;
+}
+.carrossel{
+    width: 400px;
+    height: 300px;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+@media screen and (maxwidth:1000px) {
+    
+}
