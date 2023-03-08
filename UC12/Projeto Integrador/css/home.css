@@ -1,28 +1,42 @@
+.corpo{
+    background-color: blueviolet;
+}
+.cabecalho{
+    background-color: lightgrey;
+}
 .navegacao{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.logo-barraNav{
+    width: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
     align-items: center;
 }
 .logo{
     /* display: inline-block; */
+    flex-basis: 5;
     width: 180px;
-    flex-grow: 1;
 }
 .logo-imagem{
     width:100%;
 }
 .barraNav{
-    flex-grow: 3.2;
-    /* display: inline-block; */
+    flex-grow: 6;
     width: 700px;
 }
 .barraNav-imagem{
     width: 100%;
 }
 .listMenu{
-    flex-grow: 3;
+    /* flex-grow: 3; */
+    width: 40%;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-around;
 }
 .alignMoreUp{
     margin-bottom: 10px;
@@ -31,18 +45,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3.8%;
+    /* margin: 3.8%; */
 }
 .menu{
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 .favoritos{
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 .login{
-    flex-grow: 1.2;
+    /* margin: 0px !important; */
+    /* flex-grow: 3; */
+    display: flex;
+}
+.login-icon{
+    /* flex-grow: 1; */
+    width: 100px;
+}
+.login-icon-imagem{
+    width: 100%;
 }
 .textoLogin{
+    /* flex-grow: 3; */
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -50,11 +74,51 @@
     font-weight: bold;
 }
 .carrinho{
-    flex-grow: 1.2;
+    /* flex-grow: 1.2; */
 }
 .carrossel{
-    width: 400px;
-    height: 300px;
+    width: 90%;
+    margin:50px auto 0 auto;
+}
+.carrossel-imagem{
+    object-fit: cover;
+    object-position: 0 0;
+    height: 480px;
+}
+.imagemC0{
+    object-fit: fill;
+    object-position: 0 50%;
+    height: 480px;
+}
+.imagemC1{
+    object-position: 0 35%;
+}
+.imagemC2{
+    object-position: 0 50%;
+}
+.imagemC3{
+    object-fit: fill;
+    object-position: 0 70%;
+}
+.linkSetaEsquerda{
+    width: 144px;
+    margin-left: 5%;
+}
+.linkSetaDireita{
+    width: 144px;
+    margin-right: 5%;
+}
+.flexRow-center{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.flexColumn-center{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
