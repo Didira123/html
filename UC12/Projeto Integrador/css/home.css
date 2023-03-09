@@ -1,5 +1,5 @@
 .corpo{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .cabecalho{
     background-color: lightgrey;
@@ -38,9 +38,6 @@
     flex-flow: row nowrap;
     justify-content: space-around;
 }
-.alignMoreUp{
-    margin-bottom: 10px;
-}
 .itensListMenu{
     display: flex;
     justify-content: center;
@@ -76,29 +73,31 @@
 .carrinho{
     /* flex-grow: 1.2; */
 }
+.principal{
+    margin:0 30px;
+}
 .carrossel{
     width: 90%;
-    margin:50px auto 0 auto;
+    margin:50px auto;
 }
 .carrossel-imagem{
     object-fit: cover;
     object-position: 0 0;
-    height: 480px;
+    height: 400px;
 }
 .imagemC0{
     object-fit: fill;
     object-position: 0 50%;
-    height: 480px;
 }
 .imagemC1{
     object-position: 0 35%;
 }
 .imagemC2{
-    object-position: 0 50%;
+    object-position: 0 37%;
 }
 .imagemC3{
-    object-fit: fill;
-    object-position: 0 70%;
+    /* object-fit: fill; */
+    object-position: 0 40%;
 }
 .linkSetaEsquerda{
     width: 144px;
@@ -109,18 +108,65 @@
     margin-right: 5%;
 }
 .flexRow-center{
+    color: white;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: center;
+    margin: auto auto 20px;
 }
 .flexColumn-center{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid rgb(67, 107, 121);
+    border-radius: 15%;
+    margin:5px 15px;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 5px #d5d4d3cf;
+}
+.frete{
+    background-color: rgb(16, 183, 212);
+}
+.compra{
+    background-color: rgb(19, 207, 44);
+}
+.entrega{
+    background-color: rgb(221, 201, 21);
+}
+.categorias{
+
+}
+.titulo-categorias{
+    color: rgb(150, 38, 60);
+    font-weight: bold;
+    font-size: 40px;
+}
+.list-itens-categorias{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-categoria{
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
 }
+.titulo-item-categoria{
+    font-weight: bold;
+    font-size: 28px;
+}
+.imagem-item-categoria{
 
+}
+.imagem-item-categoria img{
+    border-radius: 100%;
+    border: 4px solid black; 
+    width:235px;
+    height: 235px;
+}
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 @media screen and (maxwidth:1000px) {
