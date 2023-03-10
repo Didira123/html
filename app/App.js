@@ -11,6 +11,7 @@ import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-googl
 import imagem_topo from "./assets/images/Secagem.jpg";
 import imagem_fim from "./assets/images/CARROSSEL1.png";
 import PersonImage from './Components/PersonImage';
+import Mock from './Components/Mock';
 
 export default function App () {
 
@@ -40,6 +41,7 @@ export default function App () {
           <Text style={[Home.texto_imagem, Home.italicWhite]}>Um Kit com produtos fresquinhos e selecionados, diretamente da fazenda para a sua mesa. Ao escolher um dos nossos produtos você leva o melhor em verduras, frutas e legumes para a sua família. São produtos saudáveis, livres de agrotóxicos.</Text>
         </View>
         <PersonImage style={Home.imagem_container}/>
+        <ArquivoTexto {...Mock}/>
       </ScrollView>
     </SafeAreaView>
   )
