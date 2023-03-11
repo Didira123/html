@@ -3,7 +3,7 @@ export default ({texto, texto2, objeto}) => {
         <View>
             <Text>{texto}</Text>
             <Text>{texto2}</Text>
-            <Text>{objeto.texto3}</Text>
+            <Text>{texto3}</Text>
         </View>
     );
 }
