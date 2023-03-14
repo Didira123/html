@@ -47,8 +47,30 @@ cursor: pointer;
     align-items: center;
     /* margin: 3.8%; */
 }
+.menu .favoritos .login-icon .carrinho{
+    cursor: pointer;
+}
 .menu{
     /* flex-grow: 1; */
+    cursor: pointer;
+    position: relative;
+}
+.menu_dropDown{
+    width:300%;
+    position: absolute;
+    top:90%;
+    z-index: 1;
+}
+.menu_dropDown .itensMenu {
+    background-color: rgb(60, 83, 90);
+    color: white;
+    text-align: center;
+    /* border: 2px solid black; */
+    margin: 0;
+}
+.invisivel{
+    display: none;
+    z-index: 1;
 }
 .favoritos{
     /* flex-grow: 1; */
@@ -57,6 +79,28 @@ cursor: pointer;
     /* margin: 0px !important; */
     /* flex-grow: 3; */
     display: flex;
+}
+.tituloForm{
+    text-align: center;
+    width: 100%;
+}
+.formulario{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:flex-start;
+    align-items: center;
+}
+.camposForm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.camposForm p {
+    margin:0;
+}
+.camposForm input{
+    flex-grow: 0.8;
 }
 .login-icon{
     /* flex-grow: 1; */
@@ -170,6 +214,7 @@ cursor: pointer;
     width:235px;
     height: 235px;
 }
+
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 @media screen and (maxwidth:1000px) {
