@@ -116,11 +116,15 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    margin-left: 10px;
+}
+.textoLogin p{
+    margin:0;
 }
 .carrinho{
     /* flex-grow: 1.2; */
 }
-.principal{
+.principal, footer{
     margin:0 30px;
 }
 .carrossel{
@@ -215,6 +219,97 @@ cursor: pointer;
     height: 235px;
 }
 
+.volta-topo{
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+}
+.chat{
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.Final{
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    width: 160px;
+    height: 120px;
+}
+.formas{
+    font-size: 160%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(252, 12, 12);
+    font-weight: bold;
+}
+.paga{
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(160, 34, 34);
+    font-weight: bold;
+}
+.Atendimento p{
+    margin-bottom: 0;
+}
+.Atendimento{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Frase-Atendimento{
+    display: flex;
+    align-items: center;
+}
+.aten{
+    font-size: 160%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(252, 12, 12);
+    font-weight: bold;
+}
+.cliente{
+    width: 30px;
+}
+.tel{
+    font-size: 140%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(160, 34, 34);
+    font-weight: bold;
+    
+}
+.dias{
+    font-size: 140%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(160, 34, 34);
+    font-weight: bold;
+}
+.gmail{
+    font-size: 140%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(160, 34, 34);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.Alinhamento {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sociais{
+    font-size: 160%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(252, 12, 12);
+    font-weight: bold;
+}
+.redes{
+    width: 125px;
+    height: 55px;
+}
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 @media screen and (maxwidth:1000px) {
