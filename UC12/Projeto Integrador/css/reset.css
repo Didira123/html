@@ -33,6 +33,7 @@ body {
 }
 ol, ul {
 	list-style: none;
+	margin: 0 !important;
 }
 blockquote, q {
 	quotes: none;
@@ -45,4 +46,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+figure{
+	margin: 0;
+	padding: 0;
 }
