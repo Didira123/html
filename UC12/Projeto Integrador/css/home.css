@@ -1,12 +1,15 @@
-div{
-    max-width: none;
-    min-width: 0;
+html{
+    scroll-behavior: smooth;
 }
 a{
 cursor: pointer;
 }
 .cabecalho{
     background-color: lightgrey;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 .navegacao{
     display: flex;
@@ -217,7 +220,7 @@ cursor: pointer;
     margin-bottom: 100px;
 }
 
-.titulo-categorias{
+.subtitulos{
     color: rgb(150, 38, 60);
     font-weight: bold;
     font-size: 40px;
@@ -250,12 +253,15 @@ cursor: pointer;
 }
 /*///////////////////////////*/
 .borda{
+    flex-shrink: 1;
+}
+.borda > div{
+    padding: 20px;
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    padding: 20px;
     box-sizing: border-box;
-    flex-shrink: 1;
+    height: 100%;
 }
 .titulo {
     color: black;
@@ -273,7 +279,7 @@ cursor: pointer;
 }
 /*///////////////////////////////*/
 .Final{
-    margin-top: 130px;
+    margin-top: 50px;
     display: flex;
     justify-content:space-between;
 }
@@ -348,6 +354,9 @@ cursor: pointer;
 .redes{
     width: 125px;
     height: 55px;
+}
+.move-screen-carrinho{
+    position: fixed;
 }
 .volta-topo{
     margin-bottom: 10px;
