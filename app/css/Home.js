@@ -25,47 +25,50 @@ export default Home = StyleSheet.create({
         // width:"100%",
         // textAlign:"center",
         color:"white",
-        fontWeight:"bold",
-        fontSize:25,
-        top:25,
+        // fontWeight:"bold",
+        fontSize:29.8,
+        top:32,
     },
     cestaVarredura:{
         width:"100%",
         textAlign:"left",
         fontWeight:"bold",
-        fontSize:20,
-        marginVertical:3,
+        fontSize:22,
+        marginBottom:3,
     },
     main:{
-        marginHorizontal:"auto",
+        marginHorizontal:20,
     },
     logo_texto:{
-        marginVertical: 3,
+        marginVertical:4,
         flexDirection: "row",
-        alignItems:"space-between",
+        alignItems:"center",
+        justifyContent:"space-between"
         
     },
     logo_logo_texto:{
-        width: 75,
-        height: 75,
+        width: 100,
+        height: 100,
         
     },
     texto_logo_texto:{
-        fontSize:25,
-        fontFamily:"MS7Bold",
+        fontSize:26,
+        fontWeight:"900",
+        // fontFamily:"MS7Bold",
     },
     textao:{
         fontSize:16,
         // margin:10,
         textAlign:"justify",
-        lineHeight:16,
+        lineHeight:26,
         // color:"lightgray",
     },
     valor:{
         // marginLeft:10,
         fontSize:25,
         color:"#228622",
-        fontFamily:"MS7Bold",
+        fontWeight:"900",
+        // fontFamily:"MS7Bold",
     },
     imagem_topo:{
         width: "100%",
@@ -133,5 +136,50 @@ export default Home = StyleSheet.create({
     imagemTOP2:{
         width: 300,
         height: 300,
+    },
+    botao_comprar:{
+        backgroundColor:"#0CA0A0",
+        alignItems: 'center',
+        padding:12,
+        borderRadius:8,
+        marginTop:20,
+    },
+    texto_botao:{
+        color:"white",
+        fontSize:16,
+    },
+    titulo_list_cesta:{
+        fontSize:23,
+        textAlign:"left",
+        fontWeight:"bold",
+        marginVertical:20,
+    },
+    list_cesta:{
+        flexDirection:"column",
+        alignItems:"flex-start"
+    },
+    item_cesta:{
+        justifyContent:"flex-start",
+        flexDirection:"row",
+        alignItems:"center",
+        flexWrap:"wrap"
+    },
+    item_cesta_imagem:{
+        width:40,
+        height:40
+    },
+    item_cesta_texto:{
+        marginLeft:10,
+        fontSize:18,
+    },
+    tag_br:{
+        borderBottomColor:"gray",
+        borderBottomWidth:1,
+        // width:"100%",
+        width:330,
+        marginVertical:16,
+        position:"relative",
+        width:300,
     }
+
 })

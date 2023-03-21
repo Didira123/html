@@ -14,10 +14,35 @@ import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-googl
 
 import {textos, imagens, htmls, css} from "./Components/Mock";
 
-
+import tomate from "./assets/frutas/Tomate.png";
+import brocolis from "./assets/frutas/Brócolis.png";
+import pepino from "./assets/frutas/Pepino.png";
+import batata from "./assets/frutas/Batata.png";
+import abobora from "./assets/frutas/Abóbora.png";
 
 export default function App () {
-
+  const listCesta = [
+    {
+      "image":tomate,
+      "texto":"Tomate"
+    },
+    {
+      "image":brocolis,
+      "texto":"Brócolis"
+    },
+    {
+      "image":pepino,
+      "texto":"Pepino"
+    },
+    {
+      "image":batata,
+      "texto":"Batata"
+    },
+    {
+      "image":abobora,
+      "texto":"Abóbora"
+    },
+  ]
   const [fontsLoaded] = useFonts({
     "MS4Regular":Montserrat_400Regular,
     "MS7Bold": Montserrat_700Bold,
@@ -28,16 +53,34 @@ export default function App () {
   }
   return (
     <SafeAreaView style={css.home.container}>
-      <StatusBar/>
-      <Image style={css.home.topo} source={imagens.topo_png}/>
-      <Text style={css.home.texto_topo}>{textos.h1}</Text>
-      <View style={css.home.main}>
-        {htmls.logo_texto}
-        <Text style={css.home.cestaVarredura}>{textos.h2}</Text>
-        <Text style={css.home.textao}>{textos.texto_principal}</Text>
-        <Text style={css.home.valor}>{textos.valor}</Text>
-        <TouchableOpacity onPress={() => Alert.alert('Simple Button pressed')}><Text>{textos.botao}</Text></TouchableOpacity>
-      </View>
+      <ScrollView>
+        <StatusBar/>
+        <Image style={css.home.topo} source={imagens.topo_png}/>
+        <Text style={css.home.texto_topo}>{textos.h1}</Text>
+        <View style={css.home.main}>
+          {htmls.logo_texto}
+          <Text style={css.home.cestaVarredura}>{textos.h2}</Text>
+          <Text style={css.home.textao}>{textos.texto_principal}</Text>
+          <Text style={css.home.valor}>{textos.valor}</Text>
+          <TouchableOpacity style={css.home.botao_comprar} onPress={() => Alert.alert('Simple Button pressed')}><Text style={css.home.texto_botao}>{textos.botao}</Text></TouchableOpacity>
+          <View>
+            <View style={css.home.list_cesta}>
+              <Text style={css.home.titulo_list_cesta}>Itens da Cesta</Text>
+              <View>
+                {listCesta.map((produto)=>{return(
+                  <>
+                    <View style={css.home.item_cesta}>
+                      <Image style={css.home.item_cesta_imagem} source={produto.image}/>
+                      <Text style={css.home.item_cesta_texto}>{produto.texto}</Text>
+                    </View>
+                    <View style={css.home.tag_br}></View>
+                  </>
+                )})}
+              </View>
+            </View>
+          </View>
+        </View>
+      </ScrollView>
     </SafeAreaView>
   )
 }
