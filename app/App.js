@@ -62,7 +62,7 @@ export default function App () {
           <Text style={css.home.cestaVarredura}>{textos.h2}</Text>
           <Text style={css.home.textao}>{textos.texto_principal}</Text>
           <Text style={css.home.valor}>{textos.valor}</Text>
-          <TouchableOpacity style={css.home.botao_comprar} onPress={() => Alert.alert('Simple Button pressed')}><Text style={css.home.texto_botao}>{textos.botao}</Text></TouchableOpacity>
+          <TouchableOpacity style={css.home.botao_comprar} onPress={() => Alert.alert('Compra efetuada com sucesso!')}><Text style={css.home.texto_botao}>{textos.botao}</Text></TouchableOpacity>
           <View>
             <View style={css.home.list_cesta}>
               <Text style={css.home.titulo_list_cesta}>Itens da Cesta</Text>

@@ -22,11 +22,15 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	min-width: 0 !important;
+	max-width: none !important;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+	min-width: 0 !important;
+	max-width: none !important;
 }
 body {
 	line-height: 1;
@@ -34,6 +38,8 @@ body {
 ol, ul {
 	list-style: none;
 	margin: 0 !important;
+	min-width: 0 !important;
+	max-width: none !important;
 }
 blockquote, q {
 	quotes: none;
@@ -46,12 +52,12 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	min-width: 0 !important;
+	max-width: none !important;
 }
 figure{
 	margin: 0;
 	padding: 0;
-}
-div{
-    max-width: none;
-    min-width: 0;
+	min-width: 0 !important;
+	max-width: none !important;
 }

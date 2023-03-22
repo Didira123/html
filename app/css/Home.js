@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Dimensions } from "react-native";
 
 const width = Dimensions.get("screen").width;
-
+const marginHorizontal = 20;
 export default Home = StyleSheet.create({
     container: {
         flex: 1,
@@ -37,9 +37,10 @@ export default Home = StyleSheet.create({
         marginBottom:3,
     },
     main:{
-        marginHorizontal:20,
+        marginHorizontal:marginHorizontal,
     },
     logo_texto:{
+        width: (width-(2*marginHorizontal)),
         marginVertical:4,
         flexDirection: "row",
         alignItems:"center",
@@ -179,7 +180,7 @@ export default Home = StyleSheet.create({
         width:330,
         marginVertical:16,
         position:"relative",
-        width:300,
+        width:(width-(2*marginHorizontal)),
     }
 
 })

@@ -3,6 +3,10 @@ html{
 }
 a{
 cursor: pointer;
+width: 100%;
+}
+.listMenu li a > img {
+    width: 100%;
 }
 .cabecalho{
     background-color: lightgrey;
@@ -53,9 +57,12 @@ cursor: pointer;
     font-size: 32px;
     padding-top: 32px;
     padding-bottom: 32px;
+    width: 80%;
 }
 .pesquisa button {
+    width: 20%;
     font-size: 32px;
+    min-width: 78px !important
 }
 .listMenu{
     /* flex-grow: 3; */
@@ -84,6 +91,18 @@ cursor: pointer;
     cursor: pointer;
     position: relative;
     margin-left: 0;
+    display: none;
+    justify-content: flex-end;
+    width: 25%;
+}
+.dropleft-MEU{
+    top:-16px !important;
+    opacity: 0.75;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.dropleft-MEU > div:hover{
+    background-color: gray !important;
 }
 .menu_dropDown{
     width:300%;
@@ -98,10 +117,10 @@ cursor: pointer;
     /* border: 2px solid black; */
     margin: 0;
 }
-.invisivel{
+/* .invisivel{
     display: none;
     z-index: 1;
-}
+} */
 .favoritos{
     /* flex-grow: 1; */
 }
@@ -134,7 +153,7 @@ cursor: pointer;
 }
 .login-icon{
     /* flex-grow: 1; */
-    width: 100px;
+    width: auto !important;
 }
 .login-icon-imagem{
     width: 100%;
@@ -153,6 +172,9 @@ cursor: pointer;
 }
 .carrinho{
     margin-right: 0;
+}
+.listMenu li > img, .listMenu li > a {
+    width: 80px !important;
 }
 .principal, footer, .navegacao, .produtos{
     margin:0 30px;
@@ -387,6 +409,37 @@ cursor: pointer;
 
 }
 
-@media screen and (max-width:800px) {
-    
+@media screen and (max-width:1450px) {
+    .textoLogin p{
+        font-size: 12px;
+    }
+    .listMenu li > img, .listMenu li > a{
+        width: 65px !important;
+    }
+}
+@media screen and (max-width:1100px) {
+    .pesquisa input{
+        font-size: 15px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .pesquisa button{
+        padding: 6px 8px;
+        font-size: 15px;
+    }
+    .textoLogin p{
+        font-size: 10.5px;
+    }
+    .listMenu li > img, .listMenu li > a{
+        width: 50px !important;
+    }
+    .listMenu{
+        display: none;
+    }
+    .logo-barraNav{
+        width: 75%;
+    }
+    .menu{
+        display: flex;
+    }
 }
