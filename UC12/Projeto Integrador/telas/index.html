@@ -16,8 +16,8 @@
   <header class="cabecalho">
     <nav class="navegacao">
       <div class="logo-barraNav">
-        <figure class="logo"><a href="index.html"><img src="../source/Home Page/Logo - Home.png" class="logo-imagem"
-            alt="Logo da Farma-OnLive"></a></figure>
+        <a href="index.html"><figure class="logo"><img src="../source/Home Page/Logo - Home.png" class="logo-imagem"
+            alt="Logo da Farma-OnLive"></figure></a>
         <form class="form-inline my-2 my-lg-0 pesquisa">
           <div class="w-100">
             <input class="form-control mr-sm-2 col-10" type="search" placeholder="Search" aria-label="Search">
@@ -43,15 +43,15 @@
       <div class="menu dropleft">
         <img src="../source/Home Page/Menu - Home.png" data-toggle="dropdown" alt="menu tracejado com opções extras">
         <div class="dropdown-menu dropleft-MEU">
-          <div class="dropdown-item">Portal</div>
-          <div class="dropdown-item">Entrada</div>
-          <div class="dropdown-item">Escolhas da Casa</div>
+          <div class="dropdown-item">Login / Cadastre-se</div>
+          <div class="dropdown-item">Favoritos</div>
+          <div class="dropdown-item">Carrinho</div>
         </div>
       </div>
     </nav>
   </header>
   <main class="principal">
-    <scetion class="bd-example">
+    <section class="bd-example">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -101,42 +101,44 @@
         </a>
       </div>
     </section>
-    <section class="flexRow-center">
-      <div class="flexColumn-center compra">
-        <h2>Retire perto de você</h2><img style="width:190px" src="../source/Home Page/loja -Home.png" alt="">
-      </div>
-      <div class="flexColumn-center frete">
-        <h2>Frete Grátis</h2><img src="../source/Home Page/Frete grátis- Home.png" alt="">
-      </div>
-      <div class="flexColumn-center entrega">
-        <h2>Entrega Relâmpago</h2><img src="../source/Home Page/flash-Home.png" alt="">
+    <section class="vantagens">
+      <div class="row flexRow-center">
+        <div class="flexColumn-center compra">
+          <h2>Retire perto de você</h2><img style="width:190px" src="../source/Home Page/loja -Home.png" alt="">
+        </div>
+        <div class="flexColumn-center frete">
+          <h2>Frete Grátis</h2><img src="../source/Home Page/Frete grátis- Home.png" alt="">
+        </div>
+        <div class="flexColumn-center entrega">
+          <h2>Entrega Relâmpago</h2><img src="../source/Home Page/flash-Home.png" alt="">
+        </div>
       </div>
     </section>
-    <section class="categorias">
+    <section class="container categorias">
       <h3 class="subtitulos">Categorias</h3>
-      <ul class="list-itens-categorias">
-        <li class="item-categoria">
+      <ul class="row list-itens-categorias">
+        <li class="item-categoria col-sm-6 col-md-4 col-xl-3">
           <h4 class="titulo-item-categoria">Medicamentos</h4>
           <div class="imagem-item-categoria"><img src="../source/categorias/Medicamentos.png" alt=""></div>
         </li>
-        <li class="item-categoria">
+        <li class="item-categoria col-sm-6 col-md-4 col-xl-3">
           <h4 class="titulo-item-categoria">Bebês</h4>
           <div class="imagem-item-categoria"><img src="../source/categorias/Bebês.png" alt=""></div>
         </li>
-        <li class="item-categoria">
+        <li class="item-categoria col-sm-6 col-md-4 col-xl-3">
           <h4 class="titulo-item-categoria">Higiene pessoal</h4>
           <div class="imagem-item-categoria"><img src="../source/categorias/Higiene Pessoal.png" alt=""></div>
         </li>
-        <li class="item-categoria">
+        <li class="item-categoria col-sm-6 col-md-4 col-xl-3">
           <h4 class="titulo-item-categoria">Alimentos</h4>
           <div class="imagem-item-categoria"><img src="../source/categorias/Alimentos.png" alt=""></div>
         </li>
       </ul>
     </section>
-    <section>
+    <section class="container">
       <h3 class="subtitulos">Ofertas do Dia</h3>
       <ul class="row produtos">
-        <li class="borda col-2">
+        <li class="borda col-sm-6 col-md-4 col-xl-2">
           <div>
             <div class="center"><img class="w-100" src="../source/Benegrip30.99.jpeg"></div>
             <h4 class="titulo">Benegrip</h4>
@@ -144,7 +146,7 @@
             <p class="verde">R$ 30,99</p>
           </div>
         </li>
-        <li class="borda col-2">
+        <li class="borda col-sm-6 col-md-4 col-xl-2">
           <div>
             <div class="center"><img class="w-100" src="../source/SoroFisiologico.jpg"></div>
             <h4 class="titulo">Soro Fisiologico</h4>
@@ -152,7 +154,7 @@
             <p class="verde">R$ 6,99</p>
           </div>
         </li>
-        <li class="borda col-2">
+        <li class="borda col-sm-6 col-md-4 col-xl-2">
           <div>
             <div class="center"><img class="w-100" src="../source/Imagem3.jpg"></div>
             <h4 class="titulo">Novalgina</h4>
@@ -160,7 +162,7 @@
             <p class="verde">R$ 30,85</p>
           </div>
         </li>
-        <li class="borda col-2">
+        <li class="borda col-sm-6 col-md-4 col-xl-2">
           <div>
             <div class="center"><img class="w-100" src="../source/Imagem2.png"></div>
             <h4 class="titulo">Rinosoro</h4>
@@ -168,7 +170,7 @@
             <p class="verde">R$ 41,17</p>
           </div>
         </li>
-        <li class="borda col-2">
+        <li class="borda col-sm-6 col-md-4 col-xl-2">
           <div>
             <div class="center"><img class="w-100" src="../source/Imagem4.jpg"></div>
             <h4 class="titulo">Lufty</h4>
@@ -176,7 +178,7 @@
             <p class="verde">R$ 4,99</p>
           </div>
         </li>
-        <li class="borda col-2">
+        <li class="borda col-sm-6 col-md-4 col-xl-2">
           <div>
             <div class="center"><img class="w-100" src="../source/Dorflex2.png"></div>
             <h4 class="titulo">Dorflex</h4>
@@ -187,29 +189,31 @@
       </ul>
     </section>
   </main>
-  <footer class="Final">
-    <div class="logo">
-      <a href="index.html">
-        <img class="w-100" src="../source/footer/Logo - Home.png">
-      </a>
-    </div>
-    <div class="Alinhamento">
-      <p class="formas">Formas de pagamento</p>
-      <p class="paga">Dinheiro,Cartão e Pix</p>
-      <div class="pagamento"><img src="../source/footer/Formas de pagamentos.png"></div>
-    </div>
-    <div class="Atendimento">
-      <div class="Frase-Atendimento">
-        <p class="aten">Atendimento ao cliente</p>
-        <div class="cliente"><img class="w-100" src="../source/footer/Atendimento ao cliente.png"></div>
+  <footer class="container-fluid">
+    <div class="row Final">
+      <div class="logo-bottom col-sm-6 col-md-4 col-xl-2">
+        <a href="index.html">
+          <img src="../source/footer/Logo - Home.png">
+        </a>
       </div>
-      <p class="tel">Tel: 31 2526-3214</p>
-      <p class="dias">Segunda à Domingo</p>
-      <p class="gmail"> Farma_On_Live@gmail.com</p>
-    </div>
-    <div class="Alinhamento">
-      <p class="sociais">Redes Sociais</p>
-      <div class="redes"><img class="w-100" src="../source/footer/Redes Sociais C.png"></div>
+      <div class="Alinhamento col-sm-6 col-md-4 col-xl-2">
+        <p class="formas">Formas de pagamento</p>
+        <p class="paga">Dinheiro,Cartão e Pix</p>
+        <div class="pagamento"><img src="../source/footer/Formas de pagamentos.png"></div>
+      </div>
+      <div class="Atendimento col-sm-6 col-md-4 col-xl-2">
+        <div class="Frase-Atendimento">
+          <p class="aten">Atendimento ao cliente</p>
+          <div class="cliente"><img class="w-100" src="../source/footer/Atendimento ao cliente.png"></div>
+        </div>
+        <p class="tel">Tel: 31 2526-3214</p>
+        <p class="dias">Segunda à Domingo</p>
+        <p class="gmail"> Farma_On_Live@gmail.com</p>
+      </div>
+      <div class="Alinhamento col-sm-6 col-md-4 col-xl-2">
+        <p class="sociais">Redes Sociais</p>
+        <div class="redes"><img class="w-100" src="../source/footer/Redes Sociais C.png"></div>
+      </div>
     </div>
   </footer>
 
@@ -255,5 +259,4 @@
     crossorigin="anonymous"></script>
   <script src="../js/script.js"></script>
 </body>
-
 </html>

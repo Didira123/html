@@ -1,5 +1,7 @@
+// window.onbeforeunload = function () {
+//     window.scrollTo(0, 0);
+// }
 window.scrollTo(0, 0);
-
 // function scrollToFirstText(formulario){
 //     var valor_busca = formulario.querySelector('input').value;
 //     alert(valor_busca);
